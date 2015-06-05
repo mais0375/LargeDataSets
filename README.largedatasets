@@ -1,0 +1,30 @@
+i1.sh initializes and starts SPARK. Creates hdfs folders.
+a1.sh installs sw on master VM.
+a2.sh installs sw on slaves VM.s.
+
+add slave node names  to a1.sh
+
+i1.sh a1.sh a2.sh shall be located in home folder.
+
+
+
+b2.py python scrip for transfering data
+b2.sh calls b2.py. Added to crontab
+ctab  crontab file. set start time and date prior to running a2.sh
+
+create /home/ubuntu/genomeData folder
+b2.py b2.sh ctab shall be located in /home/ubuntu/genomeData folder
+
+1000Genome.ipynb  python notebook to be placed whitin a notebook flder.
+
+
+execute
+
+i1.sh
+a1.sh
+a2.sh
+
+check hdfs status  with
+
+hdfs dfs -ls /genome | wc -l
+
