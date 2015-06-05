@@ -6,7 +6,7 @@ add slave node names  to a1.sh
 
 i1.sh a1.sh a2.sh shall be located in home folder.
 
-
+Download OpenStack RC file from SMOG access & security  g2015016-openrc.sh 
 
 b2.py python scrip for transfering data
 b2.sh calls b2.py. Added to crontab
